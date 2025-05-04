@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ -z "$1" ]; then
+  echo "❌ Usage: ppt2pdf <file.pptx>"
+  exit 1
+fi
+
+FILEPATH=$(realpath "$1")
+
+FILE="$FILEPATH" osascript -l JavaScript /usr/local/bin/convertPPTXToPDF.js
