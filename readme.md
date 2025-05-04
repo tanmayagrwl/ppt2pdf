@@ -1,4 +1,4 @@
-# CLI PPT2PDF Converter For macOS
+# CLI PPT to PDF Converter For macOS
 
 This is a JXA script for macOS that converts PowerPoint presentations (.ppt/.pptx files) to PDF format using KeyNote.
 
